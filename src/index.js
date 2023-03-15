@@ -30,9 +30,9 @@ task('propose-upgrade', 'Propose a Safe transaction to upgrade a contract')
     types.string,
     false
   )
-  .addParam('safe', 'The Gnosis Safe address', undefined, types.string, false)
+  .addParam('safe', 'The Safe address', undefined, types.string, false)
   .addParam('proxy', 'The proxy contract address to upgrade', undefined, types.string, false)
-  .addParam('safeTxGas', 'The safe safeTransaction gas', 1000000, types.int, true)
+  .addParam('safeTxGas', 'The Safe transaction gas', 1000000, types.int, true)
   .addParam('baseGas', 'The base gas', 1000000, types.int, true)
   .addParam('gasPrice', 'The gas price', 0, types.int, true)
   .addParam('origin', 'The origin', 'hardhat-safe-contract-upgrader', types.string, true)

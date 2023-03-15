@@ -1,6 +1,6 @@
 # harhdat-safe-contract-upgrader
 
-Simple hardhat task to promote a Gnosis Safe transaction to update a contract.
+Simple hardhat task to update a contract through a Safe transaction. The task simply deploy the new implementation contract and then sends to the Safe relay the signature of the transaction that updates the proxy address.
 
 
 &nbsp;
@@ -33,8 +33,8 @@ OPTIONS:
   --gas-price           The gas price (default: 0)
   --origin              The origin (default: "hardhat-safe-contract-upgrader")
   --proxy               The proxy contract address to upgrade 
-  --safe                The Gnosis Safe address 
-  --safe-tx-gas         The safe safeTransaction gas (default: 1000000)
+  --safe                The Safe address 
+  --safe-tx-gas         The Safe transaction gas (default: 1000000)
   --tx-service-url      The Safe Transaction Service API endpoint (default: "https://safe-transaction-mainnet.safe.global")
 
 propose-upgrade: Propose a Safe transaction to upgrade a contract
