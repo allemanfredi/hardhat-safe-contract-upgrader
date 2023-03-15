@@ -1,6 +1,6 @@
 # harhdat-safe-contract-upgrader
 
-Simple hardhat task to promote Gnosis Safe transaction to update a contract.
+Simple hardhat task to promote a Gnosis Safe transaction to update a contract.
 
 
 &nbsp;
@@ -9,7 +9,7 @@ Simple hardhat task to promote Gnosis Safe transaction to update a contract.
 
 &nbsp;
 
-## How to install it
+## :heavy_plus_sign: How to install it
 
 ```
 npm install harhdat-safe-contract-upgrader --save-dev
@@ -21,7 +21,7 @@ npm install harhdat-safe-contract-upgrader --save-dev
 
 &nbsp;
 
-## How to use it
+## :rocket: How to use it
 
 ```
 Usage: hardhat [GLOBAL OPTIONS] propose-upgrade [--base-gas <INT>] --factory <STRING> [--gas-price <INT>] [--origin <STRING>] --proxy <STRING> --safe <STRING> [--safe-tx-gas <INT>] [--tx-service-url <STRING>]
